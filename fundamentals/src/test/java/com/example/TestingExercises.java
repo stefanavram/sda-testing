@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestingExercises {
 
     @Test
+    public void assert_equals() {
+        assertEquals(15, 3 * 5);
+    }
+
+    @Test
     public void assert_true_or_false() {
         assertTrue(3 == 3);
         assertFalse("Hello".equals("Gigi"));
