@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fundamentals" />
+        <module name="advanced" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="advanced" target="8" />
       <module name="fundamentals" target="8" />
       <module name="sda-testing" target="8" />
     </bytecodeTargetLevel>
