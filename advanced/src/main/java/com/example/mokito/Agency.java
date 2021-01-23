@@ -3,5 +3,5 @@ package com.example.mokito;
 import java.util.List;
 
 public interface Agency {
-    List<Car> findCar(int amountSeats, String type);
+    List<Car> findCars(int amountSeats, String type);
 }
