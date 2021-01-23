@@ -8,6 +8,10 @@ public class Car {
     String type;
     double costPerDay;
 
+    public Car(String brand) {
+        this.brand = brand;
+    }
+
     public Car(String brand, String model, double engineCapacity, int amountSeats, String type, double costPerDay){
         this.brand = brand;
         this.model = model;
