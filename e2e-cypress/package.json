@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress_open": "./node_modules/.bin/cypress open"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^6.2.1"
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^6.3.0"
   }
 }
